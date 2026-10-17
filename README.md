@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ANDÁ
 
 Una app, una cuenta, tres perfiles separados (Persona · Comercio · CEO/Equipo). Las personas caminan, completan desafíos y suman PASOS (sin valor en dinero) que canjean por cupones de un solo uso en comercios.
@@ -9,3 +10,6 @@ Probar la demo ahora (sin cuentas):
 ```bash
 cd web && npm install && VITE_APP_MODE=demo npm run dev
 ```
+=======
+# anda-app12
+>>>>>>> a48cb938b48fc7509dec7223a60253bc27b128d5
