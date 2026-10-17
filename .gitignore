@@ -1,0 +1,6 @@
+node_modules/
+dist/
+web/shots/
+.env
+.env.*
+*.log

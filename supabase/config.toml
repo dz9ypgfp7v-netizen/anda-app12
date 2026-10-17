@@ -1,0 +1,13 @@
+# Configuración mínima para usar el CLI de Supabase (supabase link / db push / functions deploy).
+# Si el CLI se queja de este archivo, borralo y corré `supabase init` (no toca migraciones ni funciones).
+project_id = "anda"
+
+# Las tres funciones exigen una sesión válida (JWT) además de comprobar el rol dentro del código.
+[functions.admin-create-account]
+verify_jwt = true
+
+[functions.admin-reset-password]
+verify_jwt = true
+
+[functions.delete-account]
+verify_jwt = true

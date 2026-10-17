@@ -1,0 +1,150 @@
+{
+  "brand": {
+    "name": "ANDÁ",
+    "tagline": "Movete a tu manera.",
+    "visual_concept": "Senda peatonal + movimiento urbano + mascota ardilla",
+    "principles": [
+      "alegre",
+      "urbana",
+      "cercana",
+      "confiable",
+      "no genérica"
+    ]
+  },
+  "color": {
+    "light": {
+      "background": "#F2F6F9",
+      "surface": "#FFFFFF",
+      "surface2": "#E8EFF4",
+      "text": "#0F2A43",
+      "textSecondary": "#566B7F",
+      "border": "#D5E0E8",
+      "accent": "#1C6FB3",
+      "accentText": "#FFFFFF",
+      "accentSoft": "#DCEBF7",
+      "sun": "#F6B40E",
+      "sunText": "#3A2A00",
+      "sunSoft": "#FFF1C7",
+      "success": "#16794C",
+      "successSoft": "#DDF3E8",
+      "warning": "#8A5700",
+      "warningSoft": "#FFF0CC",
+      "error": "#B3261E",
+      "errorSoft": "#FBE3E1"
+    },
+    "dark": {
+      "background": "#0A1620",
+      "surface": "#12212D",
+      "surface2": "#1A2D3C",
+      "text": "#E7EFF6",
+      "textSecondary": "#9BB0C2",
+      "border": "#27394A",
+      "accent": "#6DB6EE",
+      "accentText": "#06223A",
+      "accentSoft": "#16344B",
+      "sun": "#F6C23E",
+      "sunText": "#302300",
+      "sunSoft": "#463817",
+      "success": "#5FD39B",
+      "successSoft": "#14392E",
+      "warning": "#F2BE5C",
+      "warningSoft": "#3E321C",
+      "error": "#FF8B82",
+      "errorSoft": "#442321"
+    },
+    "monochromeLogo": {
+      "black": "#050505",
+      "white": "#FFFFFF",
+      "supportGray": "#BFC1C4"
+    }
+  },
+  "typography": {
+    "display": {
+      "family": "Bricolage Grotesque",
+      "weights": [
+        600,
+        700,
+        800
+      ],
+      "usage": "Titulares, saldo de pasos, números protagonistas"
+    },
+    "body": {
+      "family": "Figtree",
+      "weights": [
+        400,
+        500,
+        600,
+        700
+      ],
+      "usage": "Interfaz, párrafos, botones, formularios"
+    },
+    "mono": {
+      "family": "IBM Plex Mono",
+      "weights": [
+        500,
+        600
+      ],
+      "usage": "Códigos de 6 dígitos, cupones, contadores"
+    },
+    "scalePx": {
+      "displayXL": 40,
+      "display": 32,
+      "h1": 28,
+      "h2": 22,
+      "h3": 18,
+      "body": 16,
+      "bodySmall": 14,
+      "caption": 12,
+      "code": 28
+    },
+    "lineHeight": {
+      "tight": 1.1,
+      "heading": 1.2,
+      "body": 1.5
+    },
+    "numericFeatures": "tabular-nums"
+  },
+  "spacingPx": {
+    "1": 4,
+    "2": 8,
+    "3": 12,
+    "4": 16,
+    "5": 20,
+    "6": 24,
+    "8": 32,
+    "10": 40,
+    "12": 48,
+    "16": 64
+  },
+  "radiusPx": {
+    "field": 9,
+    "card": 14,
+    "modal": 20,
+    "pill": 999
+  },
+  "shadow": {
+    "card": "0 2px 12px rgba(15,42,67,0.07)",
+    "floating": "0 8px 28px rgba(5,20,32,0.16)",
+    "focus": "0 0 0 3px rgba(28,111,179,0.28)"
+  },
+  "layout": {
+    "contentMaxWidthPx": 920,
+    "mobileFirst": true,
+    "touchTargetMinPx": 44,
+    "desktopCEO": "Tablas densas, columnas y atajos; contenido centrado"
+  },
+  "accessibility": {
+    "contrastTarget": "WCAG AA",
+    "visibleFocus": true,
+    "doNotUseColorAloneForState": true,
+    "supportsTextZoom": true
+  },
+  "productRules": {
+    "balanceUnit": "pasos",
+    "noMoneyLikePoints": true,
+    "visitCode": "6 dígitos dinámicos, rotación aproximada cada 45 segundos",
+    "dailyVisitLimitExample": 3,
+    "stage1": "PWA mobile-first; modo prueba con cargas manuales; visitas por código mientras la pestaña Código del comercio esté abierta",
+    "stage2": "App nativa; HealthKit/Health Connect, GPS y cámara QR"
+  }
+}
